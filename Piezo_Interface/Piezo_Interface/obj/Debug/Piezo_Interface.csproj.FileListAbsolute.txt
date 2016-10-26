@@ -1,1 +1,0 @@
-c:\users\user\documents\visual studio 2013\Projects\Piezo_Interface\Piezo_Interface\bin\Debug\Piezo_Interface.exe.config

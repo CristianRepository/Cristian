@@ -1670,6 +1670,51 @@ extern "C"
   const arm_matrix_instance_q31 * pSrcA,
   const arm_matrix_instance_q31 * pSrcB,
   arm_matrix_instance_q31 * pDst);
+  
+          /**  
+	 * @brief  Core function for the Radix-2 Q15 CFFT butterfly process. 
+	 * @param[in, out] *pSrc            points to the in-place buffer of Q15 data type. 
+	 * @param[in]      fftLen           length of the FFT. 
+	 * @param[in]      *pCoef           points to Twiddle coefficient buffer.
+	 * @param[in]      twidCoefModifier twiddle coefficient modifier that supports different size FFTs with the same twiddle factor table. 
+	 * @return none. 
+	 */
+
+  void arm_radix2_butterfly_q15(
+  q15_t * pSrc,
+  uint32_t fftLen,
+  q15_t * pCoef,
+  uint16_t twidCoefModifier);
+  
+          /**  
+	 * @brief  Core function for the Radix-2 Q15 CFFT Inverse butterfly process. 
+	 * @param[in, out] *pSrc            points to the in-place buffer of Q15 data type. 
+	 * @param[in]      fftLen           length of the FFT. 
+	 * @param[in]      *pCoef       	points to Twiddle coefficient buffer.
+	 * @param[in]      twidCoefModifier twiddle coefficient modifier that supports different size FFTs with the same twiddle factor table. 
+	 * @return none. 
+	 */
+
+  void arm_radix2_butterfly_inverse_q15(
+  q15_t * pSrc,
+  uint32_t fftLen,
+  q15_t * pCoef,
+  uint16_t twidCoefModifier);
+  
+    /**
+   * @brief  In-place bit reversal function.
+   * @param[in, out] *pSrc        points to the in-place buffer of Q15 data type.
+   * @param[in]      fftLen       length of the FFT.
+   * @param[in]      bitRevFactor bit reversal modifier that supports different size FFTs with the same bit reversal table
+   * @param[in]      *pBitRevTab  points to bit reversal table.
+   * @return none.
+   */
+
+  void arm_bitreversal_q15(
+  q15_t * pSrc,
+  uint32_t fftLen,
+  uint16_t bitRevFactor,
+  uint16_t * pBitRevTab);
 
 
   /**

@@ -422,6 +422,7 @@ void system_board_init(void);
 #define EXT3_PIN_SPI_SCK          EXT3_PIN_18
 /** @} */
 
+
 /** \name Extension header #3 ADC definitions
  *  @{
  */

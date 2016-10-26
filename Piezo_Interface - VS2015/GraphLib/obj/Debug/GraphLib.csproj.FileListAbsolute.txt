@@ -1,0 +1,85 @@
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.csprojResolveAssemblyReference.cache
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\10014498\Downloads\GraphDisplay_04092014\GraphDisplay\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\user\documents\visual studio 2013\Projects\Piezo_Interface\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csprojResolveAssemblyReference.cache
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\Utente\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\user\Desktop\CristianRepo\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\10014498\css\Desktop\Cristian\Cristian\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.pdb
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.dll
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\bin\Debug\GraphLib.pdb
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphPaneEx.resources
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterDisplayEx.resources
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PlotterGraphSelectCurvesForm.resources
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.PrintPreviewForm.resources
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\ClassLibrary1.Properties.Resources.resources
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.csproj.GenerateResource.Cache
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.dll
+C:\Users\Lab\Desktop\Piezoelectric sensor board\PiezoBoardFW\Piezo_Interface - VS2015\GraphLib\obj\Debug\GraphLib.pdb
