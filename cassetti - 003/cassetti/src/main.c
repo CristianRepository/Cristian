@@ -430,7 +430,7 @@ void configure_i2c_master(void)
 
 /* Main function */
 
-
+uint8_t tmp1,tmp2;
 
 int main(void)
 {
@@ -449,12 +449,12 @@ int main(void)
 	//status = arm_fir_init_q15(&sFirStru,TAPNUMBER,&lpFilterCoefficent[0],&FirState[0],ADC_SAMPLES);
 		
 	
-// 	at24cxx_write_byte(0,0x55);
-// 	at24cxx_write_byte(1,0xaa);
+ 	m24FC1025_write_byte(0,0x55);
+ 	m24FC1025_write_byte(1,0xaa);
 // 
 // 
-// 	tmp1 = at24cxx_read_byte(0);
-// 	tmp2 = at24cxx_read_byte(1);
+ 	tmp1 = m24FC1025_read_byte(0);
+ 	tmp2 = m24FC1025_read_byte(1);
 
 	MAX5435M_write_byte(MAX5435_REGISTER_VREG,trimmer_value(analog_gain_2) );
 	MAX5435L_write_byte(MAX5435_REGISTER_VREG,trimmer_value(analog_gain_2) );
@@ -909,12 +909,12 @@ void save_configuration_param(void)
 		////crc8(&piezoboard_parameters.CRC,piezoboard_parameters.ncamp_preset);
 		////crc8(&piezoboard_parameters.CRC,piezoboard_parameters.threshold_preset);
 		
-		at24cxx_write_continuous(0,sizeof(piezoboard_parameters),(uint8_t*)&piezoboard_parameters);
+		//at24cxx_write_continuous(0,sizeof(piezoboard_parameters),(uint8_t*)&piezoboard_parameters);
 }
 
 bool load_configuration_param(struct configuration_param *piezoboard_parameters_tmp)
 {
-	at24cxx_read_continuous(0,sizeof(piezoboard_parameters),(uint8_t*)piezoboard_parameters_tmp);
+	//at24cxx_read_continuous(0,sizeof(piezoboard_parameters),(uint8_t*)piezoboard_parameters_tmp);
 	
 // 	if(	(strcmp(piezoboard_parameters_tmp->STX_EEPROM,STX_EEPROM_STR) == 0)	&&
 // 		(strcmp(piezoboard_parameters_tmp->ETX_EEPROM,ETX_EEPROM_STR) == 0)	)

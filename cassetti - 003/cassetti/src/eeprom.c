@@ -11,112 +11,8 @@
 extern struct i2c_master_module i2c_master_instance;
 
 
-// void at24cxx_write_byte(uint8_t byte_address, uint8_t byte_value) {
-// 	
-// 	
-// 	uint8_t pack[2];
-// 	pack[0] = byte_address;
-// 	pack[1] = byte_value;
-// 
-// 	
-// 	struct i2c_master_packet packet = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = sizeof(pack),
-// 		.data        = pack,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_write_packet_wait(&i2c_master_instance, &packet) != STATUS_OK);
-// 
-// 	return;
-// }
-// 
-// 
-// void at24cxx_write_continuous(uint8_t start_address, uint16_t length, uint8_t const *wr_buffer) {
-// 	
-// 	uint8_t pack[1+length];
-// 	pack[0] = start_address;
-// 	uint16_t idx;
-// 	for (idx=0;idx<length;idx++)
-// 	pack[1+idx] = wr_buffer[idx];
-// 	
-// 	struct i2c_master_packet packet = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = sizeof(pack),
-// 		.data        = pack,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_write_packet_wait(&i2c_master_instance, &packet) != STATUS_OK);
-// 
-// 	return;
-// }
-// 
-// 
-// uint8_t at24cxx_read_byte(uint8_t byte_address) {
-// 	
-// 	uint8_t data;
-// 
-// 	struct i2c_master_packet packet1 = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = 1,
-// 		.data        = (uint8_t*)&byte_address,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_write_packet_wait(&i2c_master_instance, &packet1) != STATUS_OK);
-// 	
-// 	struct i2c_master_packet packet2 = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = 1,
-// 		.data        = &data,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_read_packet_wait(&i2c_master_instance, &packet2) != STATUS_OK);
-// 
-// 	return data;
-// 
-// }
-// 
-// 
-// void at24cxx_read_continuous(uint8_t start_address, uint16_t length, uint8_t *rd_buffer) {
-// 	
-// 	struct i2c_master_packet packet1 = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = 0,
-// 		.data        = (uint8_t*)&start_address,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_write_packet_wait(&i2c_master_instance, &packet1) != STATUS_OK);
-// 	
-// 	struct i2c_master_packet packet2 = {
-// 		.address     = AT24CXX_TWI_ADDRESS,
-// 		.data_length = length,
-// 		.data        = rd_buffer,
-// 		.ten_bit_address = false,
-// 		.high_speed      = false,
-// 		.hs_master_code  = 0x0,
-// 	};
-// 
-// 	while (i2c_master_read_packet_wait(&i2c_master_instance, &packet2) != STATUS_OK);
-// 
-// }
 
-
-
-void at24cxx_write_byte(uint16_t byte_address, uint8_t byte_value) {
+void m24FC1025_write_byte(uint16_t byte_address, uint8_t byte_value) {
 	
 	
 	uint8_t pack[3];
@@ -126,7 +22,7 @@ void at24cxx_write_byte(uint16_t byte_address, uint8_t byte_value) {
 
 	
 	struct i2c_master_packet packet = {
-		.address     = AT24CXX_TWI_ADDRESS,
+		.address     = m24FC1025CXX_TWI_ADDRESS,
 		.data_length = sizeof(pack),
 		.data        = pack,
 		.ten_bit_address = false,
@@ -140,7 +36,7 @@ void at24cxx_write_byte(uint16_t byte_address, uint8_t byte_value) {
 }
 
 
-void at24cxx_write_continuous(uint16_t start_address, uint16_t length, uint8_t const *wr_buffer) {
+void m24FC1025_write_continuous(uint16_t start_address, uint16_t length, uint8_t const *wr_buffer) {
 	
 	uint8_t pack[2+length];
 	pack[0] = (start_address&0xFF00)>>8;
@@ -150,7 +46,7 @@ void at24cxx_write_continuous(uint16_t start_address, uint16_t length, uint8_t c
 	pack[2+idx] = wr_buffer[idx];
 	
 	struct i2c_master_packet packet = {
-		.address     = AT24CXX_TWI_ADDRESS,
+		.address     = m24FC1025CXX_TWI_ADDRESS,
 		.data_length = sizeof(pack),
 		.data        = pack,
 		.ten_bit_address = false,
@@ -164,12 +60,12 @@ void at24cxx_write_continuous(uint16_t start_address, uint16_t length, uint8_t c
 }
 
 
-uint8_t at24cxx_read_byte(uint16_t byte_address) {
+uint8_t m24FC1025_read_byte(uint16_t byte_address) {
 		
 	uint8_t data;
 
 	struct i2c_master_packet packet1 = {
-		.address     = AT24CXX_TWI_ADDRESS,
+		.address     = m24FC1025CXX_TWI_ADDRESS,
 		.data_length = 2,
 		.data        = (uint8_t*)&byte_address,
 		.ten_bit_address = false,
@@ -180,7 +76,7 @@ uint8_t at24cxx_read_byte(uint16_t byte_address) {
 	while (i2c_master_write_packet_wait(&i2c_master_instance, &packet1) != STATUS_OK);
 		
 	struct i2c_master_packet packet2 = {
-		.address     = AT24CXX_TWI_ADDRESS,
+		.address     = m24FC1025CXX_TWI_ADDRESS,
 		.data_length = 1,
 		.data        = &data,
 		.ten_bit_address = false,
@@ -195,10 +91,10 @@ uint8_t at24cxx_read_byte(uint16_t byte_address) {
 }
 
 
-void at24cxx_read_continuous(uint16_t start_address, uint16_t length, uint8_t *rd_buffer) {
+void m24FC1025_read_continuous(uint16_t start_address, uint16_t length, uint8_t *rd_buffer) {
 	
 		struct i2c_master_packet packet1 = {
-			.address     = AT24CXX_TWI_ADDRESS,
+			.address     = m24FC1025CXX_TWI_ADDRESS,
 			.data_length = 2,
 			.data        = (uint8_t*)&start_address,
 			.ten_bit_address = false,
@@ -209,7 +105,7 @@ void at24cxx_read_continuous(uint16_t start_address, uint16_t length, uint8_t *r
 		while (i2c_master_write_packet_wait(&i2c_master_instance, &packet1) != STATUS_OK);
 		
 		struct i2c_master_packet packet2 = {
-			.address     = AT24CXX_TWI_ADDRESS,
+			.address     = m24FC1025CXX_TWI_ADDRESS,
 			.data_length = length,
 			.data        = rd_buffer,
 			.ten_bit_address = false,
